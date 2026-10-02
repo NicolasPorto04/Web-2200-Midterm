@@ -166,3 +166,8 @@ nav a{
     color: var(--color-secondary);
     font-weight: bold;
 }
+
+ul{
+    padding: 15px;
+    list-style-position: inside;
+}
