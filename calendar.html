@@ -3,21 +3,43 @@
 <head>
     <meta charset="utf-8" />
     <title>Calendar | BTU Lab</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-        <header>
-        <img src="images/btu-logo.jpg" alt="BTU Logo">
+    <header>
+        <div class="brand">
+            <img src="images/btu-logo.jpg" alt="BTU Lab logo" id="logo">
+            <a href="index.html">ATLAS | BTU Lab</a>
+        </div>
         <nav>
             <a href="index.html">Home</a>
             <a href="tools.html">Tools</a>
-            <a href="electronics.html">Electronics</a>
-            <a href="sewingtextiles.html">Sewing & Textiles</a>
-            <a href="woodshop.html">Woodshop</a>
-            <a href="3Dprinters.html">3D Printers</a>
-            <a href="CNC.html">CNC</a>
-            <a href="index.html">Equipment</a>
-            <a href="index.html">More</a>
+
+            <div class="dropdown">
+                <button class="dropdown-toggle" aria-haspopup="true">Equipment &#9662;</button>
+                <div class="dropdown-menu">
+                    <a href="woodshop.html">Wood Shop</a>
+                    <a href="sewingtextiles.html">Sewing &amp; Textiles</a>
+                    <a href="electronics.html">Electronics</a>
+                    <a href="lasers.html">Lasers</a>
+                    <a href="3Dprinters.html">3D Printers</a>
+                    <a href="CNC.html">CNC</a>
+                </div>
+            </div>
+
+            <a href="staff.html">BTU Staff</a>
+            <a href="calendar.html">Calendar</a>
+            <a href="rules.html">Rules &amp; Policies</a>
+            <a href="workshops.html">Workshops</a>
+
+            <div class="dropdown">
+                <button class="dropdown-toggle" aria-haspopup="true">More &#9662;</button>
+                <div class="dropdown-menu">
+                    <a href="helpus.html">Help Us Blow Things Up</a>
+                    <a href="faculty.html">Faculty</a>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -34,12 +56,13 @@
         <section>
             <h3>Upcoming Orientations and Events</h3>
 
-            <img src="" alt="PLaceholder for BTU Lab calendar" />
-
-            <p>
-                The live calendar will go here. Until then,
-                <a href="https://www.colorado.edu/atlas/btu-lab">Current Calendar</a>
-            </p>
+            <div class="calendar-embed">
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?ctz=America%2FDenver&amp;color=%2392e1c0&amp;color=%23cd74e6&amp;color=%23f83a22&amp;color=%23fad165&amp;src=01c19e46b7d1df63b8c2bf86c13e9e8d4dd48407953069b76258fa20a9f6e946%40group.calendar.google.com&amp;src=1d4bdcc88938abd2d291838c548916abba1d14f79ad53e49a62b76c16d0ce4fc%40group.calendar.google.com&amp;src=917af08c35085b7a6203c14ddcfb9a84b26f31030114e022d423518e82d442e3%40group.calendar.google.com&amp;src=atlasbtulab%40gmail.com"
+                    title="BTU Lab events calendar"
+                    loading="lazy">
+                </iframe>
+            </div>
         </section>
 
         <section>
@@ -57,25 +80,26 @@
             </p>
         </section>
 
-        <footer>
-        <h2>Contact BTU Lab</h2>
-
-        <address>
-            Atlas BTU Lab<br />
-            320 UCB, 1125 18th St<br />
-            Boulder, CO 80309<br />
-            <a href="mailto:atlasbtulab@gmail.com">atlasbtulab@gmail.com</a>
-        </address>
-
-        <p>
-            Follow <a href="https://www.instagram.com/btulab_cu/">BTU Lab on Instagram</a>
-        </p>
-
-        <p>
-            BTU Lab is part of the
-            <a href="https://www.colorado.edu/atlas/">ATLAS Institute</a> at the University of Colorado Boulder.
-        </p>
-    </footer>
     </main>
+        <footer>
+            <h2>Contact BTU Lab</h2>
+
+            <address>
+                Atlas BTU Lab<br />
+                320 UCB, 1125 18th St<br />
+                Boulder, CO 80309<br />
+                <a href="mailto:atlasbtulab@gmail.com">atlasbtulab@gmail.com</a>
+            </address>
+
+            <p>
+                Follow <a href="https://www.instagram.com/btulab_cu/">BTU Lab on Instagram</a>
+            </p>
+
+            <p>
+                BTU Lab is part of the
+                <a href="https://www.colorado.edu/atlas/">ATLAS Institute</a> at the University of Colorado Boulder.
+            </p>
+        </footer>
+    
 </body>
 </html>

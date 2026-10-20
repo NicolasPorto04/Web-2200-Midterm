@@ -8,17 +8,38 @@
 
 <body>
     <header>
-        <img src="images/btu-logo.jpg" alt="BTU Logo">
+        <div class="brand">
+            <img src="images/btu-logo.jpg" alt="BTU Lab logo" id="logo">
+            <a href="index.html">ATLAS | BTU Lab</a>
+        </div>
         <nav>
             <a href="index.html">Home</a>
             <a href="tools.html">Tools</a>
-            <a href="electronics.html">Electronics</a>
-            <a href="sewingtextiles.html">Sewing & Textiles</a>
-            <a href="woodshop.html">Woodshop</a>
-            <a href="3Dprinters.html">3D Printers</a>
-            <a href="CNC.html">CNC</a>
-            <a href="index.html">Equipment</a>
-            <a href="index.html">More</a>
+
+            <div class="dropdown">
+                <button class="dropdown-toggle" aria-haspopup="true">Equipment &#9662;</button>
+                <div class="dropdown-menu">
+                    <a href="woodshop.html">Wood Shop</a>
+                    <a href="sewingtextiles.html">Sewing &amp; Textiles</a>
+                    <a href="electronics.html">Electronics</a>
+                    <a href="lasers.html">Lasers</a>
+                    <a href="3Dprinters.html">3D Printers</a>
+                    <a href="CNC.html">CNC</a>
+                </div>
+            </div>
+
+            <a href="staff.html">BTU Staff</a>
+            <a href="calendar.html">Calendar</a>
+            <a href="rules.html">Rules &amp; Policies</a>
+            <a href="workshops.html">Workshops</a>
+
+            <div class="dropdown">
+                <button class="dropdown-toggle" aria-haspopup="true">More &#9662;</button>
+                <div class="dropdown-menu">
+                    <a href="helpus.html">Help Us Blow Things Up</a>
+                    <a href="faculty.html">Faculty</a>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -33,6 +54,8 @@
                 </ul></strong>
             </p>
         </section>
+
+        <img src="images/cnc/cnc.jpg" alt="The Shaper Origin handheld CNC router" class="feature-img">
 
  <section>
             <ul>

@@ -9,19 +9,37 @@
 <body>
     <header>
         <div class="brand">
-            <img src="images/btu-logo.jpg" alt="BTU Logo" id="logo">
-            <a href="index.html" ;>ATLAS | BTU Lab</a>
+            <img src="images/btu-logo.jpg" alt="BTU Lab logo" id="logo">
+            <a href="index.html">ATLAS | BTU Lab</a>
         </div>
         <nav>
             <a href="index.html">Home</a>
             <a href="tools.html">Tools</a>
-            <a href="electronics.html">Electronics</a>
-            <a href="sewingtextiles.html">Sewing & Textiles</a>
-            <a href="woodshop.html">Woodshop</a>
-            <a href="3Dprinters.html">3D Printers</a>
-            <a href="CNC.html">CNC</a>
-            <a href="index.html">Equipment</a>
-            <a href="index.html">More</a>
+
+            <div class="dropdown">
+                <button class="dropdown-toggle" aria-haspopup="true">Equipment &#9662;</button>
+                <div class="dropdown-menu">
+                    <a href="woodshop.html">Wood Shop</a>
+                    <a href="sewingtextiles.html">Sewing &amp; Textiles</a>
+                    <a href="electronics.html">Electronics</a>
+                    <a href="lasers.html">Lasers</a>
+                    <a href="3Dprinters.html">3D Printers</a>
+                    <a href="CNC.html">CNC</a>
+                </div>
+            </div>
+
+            <a href="staff.html">BTU Staff</a>
+            <a href="calendar.html">Calendar</a>
+            <a href="rules.html">Rules &amp; Policies</a>
+            <a href="workshops.html">Workshops</a>
+
+            <div class="dropdown">
+                <button class="dropdown-toggle" aria-haspopup="true">More &#9662;</button>
+                <div class="dropdown-menu">
+                    <a href="helpus.html">Help Us Blow Things Up</a>
+                    <a href="faculty.html">Faculty</a>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -29,7 +47,7 @@
         <section>
             <h2>Blow. Things. Up.</h2>
 
-            <img src="" alt="placeholder"/>
+            <img src="images/index/btujpg.jpg" alt="Members giving a thumbs up in the BTU Lab" class="feature-img">
 
             <p>
                 The ATLAS BTU Lab is an inclusive community makerspace facilitating
@@ -56,7 +74,7 @@
 
             <article>
                 <h3>Who</h3>
-                <img src="" alt-="placeholder" />
+                <img src="images/index/who.jpg" alt="A group of BTU Lab members posing in the makerspace, one holding a snake">
                 <p>
                     Anyone* can gain access to BTU. Our goal is to provide the most
                     diverse, inclusive environment for makers of all types in a highly
@@ -72,7 +90,7 @@
 
             <article>
                 <h3>How</h3>
-                <img src="" alt="Placeholder" />
+                <img src="images/index/how.jpg" alt="A member in safety glasses and a mask holding up a power tool">
                 <p>
                     New members attend a 20 minute general orientation covering
                     community expectations, safety and equipment.
@@ -81,10 +99,10 @@
                 
             <article>
                 <h3>When</h3>
-                <img src="" alt="Placeholder" />
+                <img src="images/index/when.jpg" alt="Members working together at tables in the BTU Lab workroom">
                 <p>
                     The orientation* schedule, and all scheduled events can be found on
-                    the <a href="calender.html">BTU Calendar</a>
+                    the <a href="calendar.html">BTU Calendar</a>
                 </p>
                 <p>
                     <small>
@@ -97,7 +115,7 @@
 
             <article>
                 <h3>What</h3>
-                <img src="" alt="Placeholder" />
+                <img src="images/index/what.jpg" alt="Members gathered around a glowing LED table project">
                 <p>
                     Questions: email BTU Lab at
                     <a href="mailto:atlasbtulab@gmail.com">atlasbtulab@gmail.com</a>
@@ -106,7 +124,7 @@
 
             <article>
                 <h3>Follow</h3>
-                <img src="" alt="placeholder" />
+                <img src="images/index/follow.png" alt="A workshop in progress at BTU Lab">
                 <p>
                     See what people are making. Follow
                     <a href="https://www.instagram.com/btulab_cu/">@btulab_cu on Instagram</a>

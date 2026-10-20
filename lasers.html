@@ -3,21 +3,43 @@
 <head>
     <meta charset="utf-8" />
     <title>Lasers | BTU Lab</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-        <header>
-        <img src="images/btu-logo.jpg" alt="BTU Logo">
+    <header>
+        <div class="brand">
+            <img src="images/btu-logo.jpg" alt="BTU Lab logo" id="logo">
+            <a href="index.html">ATLAS | BTU Lab</a>
+        </div>
         <nav>
             <a href="index.html">Home</a>
             <a href="tools.html">Tools</a>
-            <a href="electronics.html">Electronics</a>
-            <a href="sewingtextiles.html">Sewing & Textiles</a>
-            <a href="woodshop.html">Woodshop</a>
-            <a href="3Dprinters.html">3D Printers</a>
-            <a href="CNC.html">CNC</a>
-            <a href="index.html">Equipment</a>
-            <a href="index.html">More</a>
+
+            <div class="dropdown">
+                <button class="dropdown-toggle" aria-haspopup="true">Equipment &#9662;</button>
+                <div class="dropdown-menu">
+                    <a href="woodshop.html">Wood Shop</a>
+                    <a href="sewingtextiles.html">Sewing &amp; Textiles</a>
+                    <a href="electronics.html">Electronics</a>
+                    <a href="lasers.html">Lasers</a>
+                    <a href="3Dprinters.html">3D Printers</a>
+                    <a href="CNC.html">CNC</a>
+                </div>
+            </div>
+
+            <a href="staff.html">BTU Staff</a>
+            <a href="calendar.html">Calendar</a>
+            <a href="rules.html">Rules &amp; Policies</a>
+            <a href="workshops.html">Workshops</a>
+
+            <div class="dropdown">
+                <button class="dropdown-toggle" aria-haspopup="true">More &#9662;</button>
+                <div class="dropdown-menu">
+                    <a href="helpus.html">Help Us Blow Things Up</a>
+                    <a href="faculty.html">Faculty</a>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -26,7 +48,7 @@
 
         <p>Laser equipment and materials are labeled <strong>RED!!!</strong></p>
 
-        <img src="" alt="placeholder" />
+        <img src="images/lasers/lasers.jpg" alt="Four laser-cut ace playing cards" class="feature-img">
 
         <nav>
             <ol>
@@ -61,7 +83,7 @@
 
             <p>
                 Laser cutter orientations are scheduled on the
-                <a href="calender.html">BTU Lab Calendar</a>.
+                <a href="calendar.html">BTU Lab Calendar</a>.
             </p>
 
             <p>
@@ -83,7 +105,7 @@
             <ol>
                 <li>
                     Complete the laser cutter orientation. See the
-                    <a href="calender.html">calendar</a>.
+                    <a href="calendar.html">calendar</a>.
                 </li>
                 <li>
                     Class assignments, where you need assistance, are facilitated by
@@ -111,6 +133,7 @@
 
         <section id="lazor-wizards">
             <h3>4. BTU Lazor Wizards</h3>
+            <img src="images/lasers/cyclops.png" alt="Comic-style illustration of a hero firing lasers from his visor" class="feature-img">
 
             <p>
                 Email all Lazor Wizards. The subject line must say:
